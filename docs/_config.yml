@@ -1,7 +1,5 @@
-remote_theme: pages-themes/architect@v0.2.0
-plugins:
-- jekyll-remote-theme
 title: Probato
-description: Framework for software testing automation at the functional software level
-google_analytics: G-XZR907P520
+description: Framework para automação de testes a nível funcional de software
+show_downloads: true
+google_analytics: G-MLHNB9XN6R
 theme: jekyll-theme-architect

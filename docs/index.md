@@ -2,122 +2,72 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# **O que é Probato?**
 
-[Link to another page](./another-page.html).
+O nome **Probato** tem origem do latim _Probatus_, que significa "relativo à prova", "comprovativo", "experimental" ou "que serve para demonstrar qualidades necessárias para o desempenho de uma função". Esse termo é o particípio passado do verbo _probo_, que significa "provar".
 
-There should be whitespace between paragraphs.
+Trazendo para o contexto de qualidade de software, **Probato** reflete seu propósito central: 
+> Apoiar equipes de desenvolvimento na garantia de qualidade dos projetos, assegurando que estejam livres de defeitos de forma ágil, eficiente e segura.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+# **O que é Teste Automatizado?**
 
-# Header 1
+O teste automatizado é um processo em que scripts ou ferramentas de software executam testes automaticamente, sem intervenção manual. Esses testes verificam se partes específicas de um sistema funcionam conforme o esperado, proporcionando maior eficiência e consistência no desenvolvimento de software.
+## **Vantagens do Teste Automatizado**
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+1. **Rapidez de execução:** 
+  - Testes automatizados são muito mais rápidos que testes manuais, permitindo a execução de grandes conjuntos de testes em pouco tempo.
+2. **Reusabilidade**    
+  - Após criados, os testes podem ser reutilizados várias vezes, economizando tempo em ciclos longos de desenvolvimento.    
+3. **Consistência**    
+  - Scripts seguem exatamente os mesmos passos em todas as execuções, eliminando erros humanos.    
+4. **Cobertura ampliada**    
+  - A automação possibilita testar mais cenários e realizar verificações complexas que seriam impraticáveis manualmente.    
+5. **Facilidade nos testes de regressão**    
+  - Alterações no código podem ser validadas rapidamente, garantindo que funcionalidades anteriores permaneçam intactas.    
+6. **Eficiência a longo prazo**    
+  - Embora o custo inicial seja elevado, os testes automatizados oferecem economias significativas no decorrer do tempo.    
+7. **Melhoria na qualidade do software**    
+  - A detecção precoce de defeitos ajuda a garantir um produto final mais confiável.
+8. **Feedback rápido**    
+  - Fornece retorno imediato sobre a qualidade do software, permitindo respostas rápidas a problemas.
+9. **Execução em diferentes ambientes**    
+  - Testes podem ser configurados para rodar em diversos navegadores, sistemas operacionais e dispositivos.
+10. **Integração com CI/CD**    
+    - Integram-se facilmente a pipelines de desenvolvimento contínuo, acelerando o ciclo de entrega.
 
-## Header 2
+## **Desvantagens do Teste Automatizado**
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+1. **Custo inicial elevado**    
+    - Configuração e desenvolvimento dos testes demandam recursos significativos.
+2. **Manutenção contínua**    
+    - Testes precisam ser atualizados conforme mudanças no código, o que pode ser trabalhoso.
+3. **Curva de aprendizado**    
+    - Criação e manutenção de testes exigem habilidades técnicas específicas.
+4. **Rigidez dos scripts**    
+    - Pequenas alterações no software podem demandar ajustes nos testes.
+5. **Dificuldade com sistemas dinâmicos**    
+    - Interfaces dinâmicas ou sistemas em constante mudança podem dificultar a automação.
+6. **Dependência de ferramentas**    
+    - Restrições a ferramentas específicas podem limitar a flexibilidade da automação.
+7. **Falsos positivos e negativos**    
+    - Problemas externos podem gerar resultados inconsistentes, confundindo a equipe.
+8. **Limitações de escopo**    
+    - Certos tipos de testes, como usabilidade ou UX, ainda precisam de interação humana.
+9. **Tempo para ROI**    
+    - Projetos pequenos ou curtos podem não justificar o investimento inicial.
+10. **Escopo restrito**    
+    - Nem todos os cenários são adequados para automação.
 
-### Header 3
+# **Como o Probato contribue na Automação de Testes?**
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+O **Probato** foi projetado para enfrentar muitos dos desafios mencionados, tornando o processo de automação de testes mais simples e eficiente. Ele oferece uma estrutura que abstrai a complexidade técnica, promovendo boas práticas de reutilização, padrões claros e ferramentas que facilitam o desenvolvimento e a manutenção dos testes automatizados.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## **Pontos a destacar do Probato**:
 
-#### Header 4
+- **Facilidade no desenvolvimento e manutenção**: Simplifica a criação e atualização de testes por meio de abstrações e integração com ferramentas modernas.
+- **Gestão de histórico e análise de resultados**: Permite rastrear execuções e resultados para uma análise detalhada, melhorando a comunicação entre equipes.
+- **Automação de relatórios e gestão de bugs**: Gera documentação automatizada e integra-se a sistemas de gerenciamento de falhas.
+- **Evolução contínua**: Recursos futuros incluem ferramentas avançadas de análise, geração de documentação de funcionalidades e suporte ampliado para integrações.
+- **Extensibilidade**: Possui diversos pontos de extensibilidade que permitem o desenvolvimento de novos recursos por terceiros, fomentando a comunidade para a evolução contínua do framework.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+Com o **Probato**, equipes podem transformar desvantagens da automação em oportunidades, melhorando a eficiência e a qualidade do software entregue.
